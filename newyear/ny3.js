@@ -12,7 +12,7 @@ jQuery(document).ready(function ($) {
     var sounds = [];
     for (var ii = 1; ii <= 36; ii++) {
       (function(i) {
-        var ss = new Audio("/files/sound/sound" + i + ".mp3");
+        var ss = new Audio("https://cdn.jsdelivr.net/gh/rockymath/static/newyear/files/sound/sound" + i + ".mp3");
         sounds.push(ss);
       })(ii);
     }
