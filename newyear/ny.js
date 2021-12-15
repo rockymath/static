@@ -1,4 +1,4 @@
-$(function () {
+jQuery(document).ready(function ($) {
     var d = function () {};
     $(document).delegate(".b-ball_bounce", "mouseenter", function () {
         b(this);
